@@ -1,0 +1,16 @@
+.login-page { min-height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+.login-bg { position: absolute; inset: 0; background: #080808; }
+.login-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px), linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px); background-size: 60px 60px; }
+.login-box { position: relative; z-index: 2; background: #fff; padding: 3rem 2.5rem; width: 100%; max-width: 380px; text-align: center; border-radius: 2px; }
+.login-logo { font-size: 16px; font-weight: 900; letter-spacing: 7px; color: #111; text-transform: uppercase; margin-bottom: 4px; }
+.login-sub { font-size: 9px; color: #999; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 2.5rem; }
+.login-field { margin-bottom: 16px; text-align: left; }
+.login-field label { display: block; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: #999; margin-bottom: 6px; font-weight: 500; }
+.login-field input { width: 100%; padding: 13px 14px; background: #f5f5f3; border: 1px solid #e8e8e4; border-radius: 2px; font-size: 14px; outline: none; color: #111; transition: border-color .2s; }
+.login-field input:focus { border-color: #c9a84c; }
+.login-error { font-size: 11px; color: #b02a2a; margin-bottom: 12px; letter-spacing: .5px; padding: 10px; background: #fdf0f0; border-radius: 2px; }
+.login-btn { width: 100%; padding: 14px; background: #111; color: #fff; font-weight: 700; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; border: none; border-radius: 2px; margin-top: 8px; transition: background .3s; }
+.login-btn:hover:not(:disabled) { background: #333; }
+.login-btn:disabled { opacity: .6; }
+.login-back { display: block; margin-top: 1.5rem; font-size: 10px; color: #999; text-decoration: none; letter-spacing: 1px; transition: color .3s; }
+.login-back:hover { color: #c9a84c; }
